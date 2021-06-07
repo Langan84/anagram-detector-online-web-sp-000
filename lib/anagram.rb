@@ -8,9 +8,9 @@ def initialize(word)
 end
 
 def match(word)
-  array.new = []
+  array = []
   array.select do |w|
-    w.split(" ").sort == word.split.sort
+    w.split(" ").sort == @word.split.sort
 
 end
 
