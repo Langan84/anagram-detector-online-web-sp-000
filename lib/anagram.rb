@@ -8,7 +8,7 @@ def initialize(word)
 end
 
 def match(word)
-  array = []
+  array.new = []
   array.select do |w|
     w.split(" ") == word.split
 
