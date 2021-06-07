@@ -9,7 +9,7 @@ end
 
 def match(word)
   array = []
-  array.select do |w| 
+  array.select do |w|
     w.split(" ") == word.split
 
 end
