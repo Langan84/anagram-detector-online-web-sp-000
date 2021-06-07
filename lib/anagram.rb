@@ -7,11 +7,11 @@ attr_accessor :word
     @word = word
   end
 
-  def match(word)
-    array = []
+  def match(array)
+
 
     array.select { |w| w.split("").sort == @word.split("").sort}
-    new_array << word
+ << word
 
   end
 
