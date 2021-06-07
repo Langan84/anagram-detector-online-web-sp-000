@@ -7,6 +7,7 @@ def initialize(words)
   @words = words
 end
 
-
+def match
+end  
 
 end
