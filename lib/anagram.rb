@@ -1,13 +1,13 @@
 # Your code goes here!
 class Anagram
 
-attr_accessor :words
+attr_accessor :word
 
-def initialize(words)
-  @words = words
+def initialize(word)
+  @word = word
 end
 
 def match
-end  
+end
 
 end
