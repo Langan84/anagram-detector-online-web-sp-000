@@ -7,10 +7,10 @@ def initialize(word)
   @word = word
 end
 
-def match(arrays)
+def match(word)
   array = []
-  @word.split(" ")
-  @word.match(/&w.../)
+  array.select do |w| 
+    w.split(" ") == word.split
 
 end
 
