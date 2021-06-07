@@ -10,5 +10,5 @@ attr_accessor :word
   def match(array)
     array.select { |w| w.split("").sort == @word.split("").sort}
     end
-  end
+
 end
