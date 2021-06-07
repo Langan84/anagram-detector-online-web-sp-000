@@ -11,7 +11,7 @@ attr_accessor :word
     array = []
 
     array.select { |w| w.split("").sort == @word.split("").sort}
-    array << word
+    new_array << word
 
   end
 
