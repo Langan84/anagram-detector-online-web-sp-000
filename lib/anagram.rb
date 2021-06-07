@@ -9,7 +9,9 @@ end
 
 def match(arrays)
   array = []
-  @words = words
+  @word.split(" ")
+  @word.match(/&w.../)
+
 end
 
 end
