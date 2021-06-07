@@ -10,7 +10,7 @@ end
 def match(word)
   array.new = []
   array.select do |w|
-    w.split(" ") == word.split
+    w.split(" ").sort == word.split.sort
 
 end
 
